@@ -1871,16 +1871,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b82223eb58c25842bee16890a5c3bfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0
-  playerJumpStrength: 0
-  isThisThePrincipal: 0
-  originPoint: {fileID: 0}
-  rayCastLength: 0
+  playerSpeed: 100
+  playerJumpStrength: 50
+  isThisThePrincipal: 1
+  originPoint: {fileID: 1445018811}
+  rayCastLength: 60
   layerMask:
     serializedVersion: 2
     m_Bits: 0
-  inCollision: {r: 1, g: 1, b: 1, a: 1}
-  outCollision: {r: 1, g: 1, b: 1, a: 1}
+  inCollision: {r: 1, g: 0, b: 0, a: 1}
+  outCollision: {r: 0.15304625, g: 1, b: 0, a: 1}
 --- !u!1 &1906623084
 GameObject:
   m_ObjectHideFlags: 0
